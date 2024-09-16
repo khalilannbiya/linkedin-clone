@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkedin Clone</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class="dark-mode">
+    <header class="header">
+        <nav>
+            <div>
+                <img src="assets/images/foto-profile.jpg" class="photo-profile image-circle" alt="Profile Photo">
+                <input type="text" placeholder="Search">
+            </div>
+
+            <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+                <i class='bx bx-menu-alt-right'></i>
+            </button>
+
+            <ul class="navList">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">My Network</a></li>
+                <li><a href="#">Post</a></li>
+                <li><a href="#">Notification</a></li>
+                <li><a href="#">Jobs</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <!-- Tombol Toggle Dark Mode -->
+            <button id="toggle-dark-mode" aria-label="Toggle Dark Mode">
+                <i class='bx bxs-moon'></i>
+            </button>
+
+            <article class="bio">
+                <div class="banner">
+                    <img src="assets/images/banner.jpg" alt="Banner Background">
+
+                    <div class="setting-icon circle">
+                        <i class='bx bxs-cog'></i>
+                    </div>
+
+                    <div class="icon-wrapper">
+                        <div>
+                            <i class='bx bxs-share'></i>
+                        </div>
+
+                        <div>
+                            <i class='bx bxs-pencil'></i>
+                        </div>
+                    </div>
+
+                    <div class="big-profile">
+                        <div>
+                            <img src="assets/images/foto-profile.jpg" class="image-circle" alt="Photo Profile">
+                            <div class="wrapper-camera circle">
+                                <i class='bx bxs-camera'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info">
+                    <h1>Syeich Khalil Annbiya</h1>
+                    <h2>Frontend Developer (React JS) | Junior Web Developer (Laravel/Express JS)</h2>
+                    <h3>Universitas Bina Sarana Informatika</h3>
+                    <h3>Karawang, West Java, Indonesia • <span>500+ connections</span></h3>
+                </div>
+
+                <div class="job-opportunities">
+                    <div>
+                        <h3>Open to job opportunities</h3>
+                        <p>Frontend Developer, Web Developer, Javascript Developer, PHP Developer roles</p>
+                        <a href="#">See all details</a>
+                    </div>
+                    <div>
+                        <i class='bx bxs-pencil'></i>
+                    </div>
+                </div>
+            </article>
+
+            <section class="analytics">
+                <h3><i>Private to you</i></h3>
+                <div class="wrapper-analytics">
+                    <div>
+                        <p class="number-analytics">98</p>
+                        <p>Who viewed your profile</p>
+                    </div>
+                    <hr>
+                    <div>
+                        <p class="number-analytics">14</p>
+                        <p>Search appearances</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about">
+                <div>
+                    <h2>About</h2>
+                    <div>
+                        <i class='bx bxs-pencil'></i>
+                    </div>
+                </div>
+                <p>
+                    I am a Web Developer with approximately 1 year of experience. My expertise includes working with a
+                    range of tools and technologies, such as Laravel and Express for backend development and ReactJS for
+                    frontend development. With several years of experience, I have a proven ability to create robust,
+                    efficient, and user-friendly web applications, and I'm always eager to explore innovative solutions.
+                    I am committed to staying up-to-date with the latest industry trends. I thrive in collaborative
+                    environments, enjoy working as part of a team to bring creative ideas to life, and am dedicated to
+                    delivering high-quality code that meets project objectives and deadlines. I'm excited about the
+                    opportunity to contribute my skills and experience to your team and help drive the success of your
+                    projects. Let's work together to build cutting-edge web applications and software solutions.
+                </p>
+                <button class="see-more-btn">See More</button>
+            </section>
+
+            <section class="activity">
+                <h2>Activity</h2>
+                <p>912 followers</p>
+                <p>Dumb Ways to Die as a Product Designer 💀🎨 Inspired by the iconic "Dumb Ways to Die" game, I’m excited
+                    to share a</p>
+                <button type="button" class="btn-see">See all</button>
+            </section>
+
+            <section class="experience">
+                <h2>Experience</h2>
+                <div>
+                    <a href="#">
+                        <i class='bx bx-plus'></i>
+                        Add experience
+                    </a>
+                </div>
+
+                <div class="wrapper-card-experience">
+                    <article class="card-experience">
+                        <img src="assets/images/not-company-logo.jpg" alt="Not Company Logo">
+                        <div class="experience-info">
+                            <div>
+                                <h3 class="position">Web Developer</h3>
+                                <h4 class="company">Freelance</h4>
+                                <p class="date">Aug 2021 - Present • 3 yrs 2 mos</p>
+                            </div>
+                            <div>
+                                <i class='bx bxs-pencil'></i>
+                            </div>
+                        </div>
+                    </article>
+                    <hr>
+                    <article class="card-experience">
+                        <img src="assets/images/systeric-logo.jpeg" alt="Systeric Logo">
+                        <div class="experience-info">
+                            <div>
+                                <h3 class="position">Frontend Engineer Intern</h3>
+                                <h4 class="company">Systeric - Software Development Agency</h4>
+                                <p class="date">Jun 2022 - Sep 2022 • 4 mos</p>
+                                <p class="location">Badung, Bali, Indonesia</p>
+
+                                <div class="description">
+                            <span>As a Front-end Engineer at Systeric, my job description includes:
+                                <br><br>• Handles the creation of front-end systems with challenging and granular tasks.
+                                <br>• Responsible for creating accurate and comprehensive Technical Design Specifications (TSD).
+                                <br>• Collaborated with UI/UX team to ensure product alignment with target audience.
+                                <br>• Collaborated with QA/SDET team to ensure product adherence to quality standards and applicable regulations.
+                                <br>• Skilled in implementing Scrum Agile concepts to optimize development processes for better output and resource utilization.
+                                <br>• Awarded the Best Squad title for outstanding performance throughout the Sprint.
+                                </span>
+                                </div>
+                                <span class="see-more-span">See More</span>
+                            </div>
+                            <div>
+                                <i class='bx bxs-pencil'></i>
+                            </div>
+                        </div>
+                    </article>
+                    <hr>
+                    <article class="card-experience">
+                        <img src="assets/images/touche-logo.jpeg" alt="Touche Logo">
+                        <div class="experience-info">
+                            <div>
+                                <h3 class="position">Web Developer Internship</h3>
+                                <h4 class="company">TOUCHÉ Development Center</h4>
+                                <p class="date">Nov 2021 - Mar 2022 · 5 mos</p>
+                                <p class="location">Daerah Istimewa Yogyakarta, Indonesia</p>
+
+                                <div class="description">
+                                    <span aria-hidden="true">As a Web Developer Touche, my job description includes:
+                                        <br><br>• Responsible for the front-end and back-end development of the company's website using Laravel, and approved by the Co-founder.
+                                        <br>• Received the Best Division Member award for December from the Web Developer Division for outstanding performance and contributions to the team.
+                                        </span>
+                                </div>
+                                <span class="see-more-span">See More</span>
+                            </div>
+                            <div>
+                                <i class='bx bxs-pencil'></i>
+                            </div>
+                        </div>
+                    </article>
+                    <hr>
+                    <article class="card-experience">
+                        <img src="assets/images/ppn-logo.jpg" alt="PPN Logo">
+                        <div class="experience-info">
+                            <div>
+                                <h3 class="position">Information Technology Staff</h3>
+                                <h4 class="company">PT Putra Pataka Nuswantara</h4>
+                                <p class="date">Sep 2021 - Dec 2021 · 4 mos</p>
+                                <p class="location">Karawang, Jawa Barat, Indonesia</p>
+
+                                <div class="description">
+                                    <span aria-hidden="true">As a Information Technology Staff/Web Developer at Putra Pataka Nuswantara, my job description includes:
+                                        <br><br>• Contributed to the development of the company profile information system by designing and implementing the user interface.
+                                        <br>• Developed a program from scratch using the Laravel framework.
+                                        <br>• Successfully received appreciation from the company and won the "Best Intern Award" for outstanding performance and contributions to the team during the internship period.
+                                        </span>
+                                </div>
+                                <span class="see-more-span">See More</span>
+                            </div>
+                            <div>
+                                <i class='bx bxs-pencil'></i>
+                            </div>
+                        </div>
+                    </article>
+                    <hr>
+                    <article class="card-experience">
+                        <img src="assets/images/not-company-logo.jpg" alt="Not Company Logo">
+                        <div class="experience-info">
+                            <div>
+                                <h3 class="position">Freelance Web Developer</h3>
+                                <h4 class="company">Honda Kumala Karawang</h4>
+                                <p class="date">Aug 2021 - Sep 2021 · 2 mos</p>
+                                <p class="location">Karawang, Jawa Barat, Indonesia</p>
+
+                                <div class="description">
+                                    <span aria-hidden="true">As a Freelance Web Developer, my job description includes:
+                                        <br><br>• Collaborated with the client to understand their marketing goals and target audience.
+                                        <br>• Designed and developed a responsive and user-friendly landing page using HTML, Bootstrap, and JavaScript.
+                                        <br>• Implemented version control using GitHub to track changes and facilitate collaboration.
+                                        <br>• Conducted thorough testing to ensure the landing page was bug-free and functioned as intended.
+                                        <br>• Delivered the landing page on time and within budget.<br>
+                                        • Enhanced the client's online presence and improved their brand awareness.
+                                        <br>• Effectively communicated with the client to ensure their satisfaction throughout the project.
+                                        </span>
+                                </div>
+                                <span class="see-more-span">See More</span>
+                            </div>
+                            <div>
+                                <i class='bx bxs-pencil'></i>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </section>
+
+        <aside>
+            <section class="contacts">
+                <div>
+                    <h2>Contacts</h2>
+                    <div>
+                        <i class='bx bxs-pencil'></i>
+                    </div>
+                </div>
+                <div class="wrapper-contact">
+                    <div class="contact">
+                        <div>
+                            <i class='bx bxs-envelope'></i>
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <a href="mailto:syeichkhalil@gmail">syeichkhalil@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div>
+                            <i class='bx bxl-linkedin-square'></i>
+                        </div>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <a href="https://www.linkedin.com/in/syeichkhalilannbiya">
+                                https://www.linkedin.com/in/syeichkhalilannbiya</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="connections">
+                <h2>More profiles for you</h2>
+                <div>
+                    <div class="connection">
+                        <img src="assets/images/bruno-profile.jpeg" class="image-circle" alt="Foto Profile">
+                        <div>
+                            <div>
+                                <h3>Bruno Fernandes •
+                                    <span>1st</span>
+                                </h3>
+                                <p>Junior Frontend Developer (Reactjs)</p>
+                            </div>
+                            <div class="circle">
+                                <i class='bx bx-send'></i>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="connection">
+                        <img src="assets/images/harry-maguire-profile.jpeg" class="image-circle" alt="Foto Profile">
+                        <div>
+                            <div>
+                                <h3>Harry Maguire •
+                                    <span>1st</span>
+                                </h3>
+                                <p>Junior Backend Developer</p>
+                            </div>
+                            <div class="circle">
+                                <i class='bx bx-send'></i>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="connection">
+                        <img src="assets/images/deligt-profile.jpeg" class="image-circle" alt="Foto Profile">
+                        <div>
+                            <div>
+                                <h3>De Ligt •
+                                    <span>1st</span>
+                                </h3>
+                                <p>Data Scientist</p>
+                            </div>
+                            <div class="circle">
+                                <i class='bx bx-send'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </aside>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Community Guidelines</a></li>
+                        <li><a href="#">Privacy & Terms</a></li>
+                        <li><a href="#">Sales Solutions</a></li>
+                        <li><a href="#">Safety Center</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Accessibility</h4>
+                    <ul>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Ad Choices</a></li>
+                        <li><a href="#">Mobile</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Talent</h4>
+                    <ul>
+                        <li><a href="#">Talent Solutions</a></li>
+                        <li><a href="#">Marketing Solutions</a></li>
+                        <li><a href="#">Advertising</a></li>
+                        <li><a href="#">Small Business</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-social">
+                <h4>Follow us</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" aria-label="Twitter"><i class='bx bxl-twitter'></i></a>
+                    <a href="#" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+                    <a href="#" aria-label="YouTube"><i class='bx bxl-youtube'></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 LinkedIn Clone. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/scripts/main.js"></script>
+</body>
+</html>
